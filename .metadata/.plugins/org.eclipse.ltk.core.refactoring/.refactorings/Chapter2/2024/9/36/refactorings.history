@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;binary.constant&apos; to &apos;Constant&apos;&#x0A;- Original project: &apos;Chapter2&apos;&#x0A;- Original element: &apos;binary.constant&apos;&#x0A;- Renamed element: &apos;binary.Constant&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;constant&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;binary{constant.java[constant" matchStrategy="1" name="Constant" qualified="false" references="true" similarDeclarations="false" stamp="1725406983611" textual="false" version="1.0"/>
+</session>

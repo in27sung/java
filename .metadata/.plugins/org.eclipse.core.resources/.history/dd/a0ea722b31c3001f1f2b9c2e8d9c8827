@@ -1,0 +1,28 @@
+package io_2;
+
+import java.io.OutputStream;
+
+public class Ex {
+
+	public static void main(String[] args) {
+		/*
+		 * 모니터로 데이터로 출력하는 방법 
+		 * 1. 기본 출력스트림인 OutputStream 사용(byte 단위로 처리)
+		 * - write() 메서드를 호출하여 byte 단위 출력 
+		 * - byte 단위로 처리되므로 문자열 자체를 처리할 수 없음 
+		 * 
+		 */
+		
+		// OutputStream 객체를 연결하기 위해서는 System.out 사용 
+		OutputStream outputS = System.out;
+		
+		char ch = 'A';
+		
+		try(OutputStream os = System.out) {
+			
+		} catch() {
+			
+		}
+	}
+
+}

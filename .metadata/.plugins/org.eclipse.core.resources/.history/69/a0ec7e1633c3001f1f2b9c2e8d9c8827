@@ -1,0 +1,38 @@
+package io_2;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class test {
+
+	public static void main(String[] args) {
+		/*
+		 * 데이터를 입력하면 입력된 데이터를 출력하는 프로그램을 만들어보자.
+		 * 입력 스트림을 데이터(문자열)을 읽어서 출력 스트림을 통해 데이터를 출력한다.
+		 * ex) 입력 문자열: 아이티윌
+		 *     화면에 출력되는 형태: 입력한 데이터는 아이티윌 입니다.
+		 * 참고) try ~ with resources 구문에서 자동반환되는 객체가 여러개 라면 세미콜론(;)
+		 *       으로 구분하여 전달 가능
+		 */
+		
+		System.out.println("문자를 입력해주세요:");
+		
+		try(BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in))) {
+			// 입력스트림에서 한 줄의 데이터(문자열) 읽어오기
+			String str = buffer.readLine();
+			
+			while(str != null) { // 입력 데이터가 존재할 동안 반복
+				System.out.println("입력한 데ㅣ터는 " + str + " 입니다.");
+				str = buffer.readLine(); // 다음 한 줄 다시 읽어오기
+			}
+			
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("입력 종료!");
+	}
+	
+
+}

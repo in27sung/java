@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cooperation.TakeTrnas&apos; to &apos;TakeTrans&apos;&#x0A;- Original project: &apos;Chapter6&apos;&#x0A;- Original element: &apos;cooperation.TakeTrnas&apos;&#x0A;- Renamed element: &apos;cooperation.TakeTrans&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TakeTrnas&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cooperation{TakeTrnas.java[TakeTrnas" matchStrategy="1" name="TakeTrans" qualified="false" references="true" similarDeclarations="false" stamp="1727505057952" textual="false" version="1.0"/>
+</session>

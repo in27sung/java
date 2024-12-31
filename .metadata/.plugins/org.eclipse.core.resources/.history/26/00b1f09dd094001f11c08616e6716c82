@@ -1,0 +1,60 @@
+package interface_;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+	
+		
+	
+
+	}
+
+}
+
+interface Shape {
+	public abstract void draw();
+}
+
+class Circle implements Shape {
+	
+	private double radius;
+	
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+
+	@Override
+	public void draw() {
+		System.out.println("원 그리기 반지름: " + radius);
+	}
+}
+
+class Rectangle implements Shape {
+
+	private double width;
+	private double height;
+
+	public void setWidth(double width) {
+		this.width = width;
+	}
+
+	public void setHeight(double height) {
+		this.height = height;
+	}
+
+	@Override
+	public void draw() {
+		System.out.println("사각형 그리기");
+		System.out.println("가로: " + width + "높이: " + height);
+	}
+}
+
+class Photoshop {
+
+	Shape[] shapeArr = {new Circle(), new Rectangle()};
+	
+	for(int i = 0; i < shapleArr.length; i++) {
+		shapeArr[i].draw();
+	}
+}
+

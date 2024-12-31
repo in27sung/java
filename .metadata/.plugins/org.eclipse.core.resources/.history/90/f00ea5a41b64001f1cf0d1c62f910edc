@@ -1,0 +1,23 @@
+package data_type;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		/*
+		 * 문자형 데이터 타입 : char
+		 * - 내부적으로 정수형 데이터로 취급됨
+		 * - 2Byte(16bit) 크기의 범위로 사용하며
+		 *   정수 범위 0 ~ 65535 사이의 값을 갖는다. (음수 사용 X)
+		 *   (short 정수형 타입은 -32768 ~ +32767)
+		 * - 문자 표현 시 1개의 문자를 작은따옴표('')로 둘러싸서 표현
+		 *   => 작은따옴표 내의 문자 1개가 정수형으로 변환되어 처리됨
+		 *      ex) 'A'는 정수 65로 처리됨
+		 */
+		
+		// char 타입 변수 ch를 선언하고 대문자 A 를 저장 후 출력
+		char ch = 'A';
+		System.out.println(ch);
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package regex;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test2 {
+	
+	public static void main(String[] args) {
+		/*
+		 * Pattern 클래스와 macther 클래스를 활용하여 
+		 * 입력된 패스워드에 대한 규칙(복잡도) 검사 
+		 * 
+		 * 규칙1. 패스워드 길이: 영문자, 숫자, 특수문자(!, @, #, $, %) 조합 8자리 ~ 16자리
+		 * 규칙2. 영문자(대, 소문자), 숫자, 특수문자(!, @, #, $, %) 중 2가지 이상 조합 
+		 * 		  -> 4가지 모두 조합 시: 안전
+		 * 		  -> 3가지 조합 시: 보통
+		 * 		  -> 2가지 조합 시: 미흡 
+		 * 		  -> 1가지 조합 시: 사용 불가능한 패스워드 
+		 */
+		
+		String password = "D12%3242dsfs"; // 원본 문자열 
+		String regexUpper = "[A-Z]";
+		String regexLower = "[a-z]";
+		String regexNumber = "[0-9]";
+		String regexSc = "[!@#$%]"; 
+		String regexLimit = "{8,16}";
+		String regexToal = regexUpper + regexLower + regexNumber + regexSc + regexLimit;
+		
+		Pattern patternUpper = Pattern.compile(regexUpper);
+		Pattern patternLower = Pattern.compile(regexLower);
+		Pattern patternNumber = Pattern.compile(regexNumber);
+		Pattern patternSc = Pattern.compile(regexSc);
+		Pattern patternLimit = Pattern.compile(regexLimit);
+		
+		Pattern patternTotal = Pattern.compile()
+		
+		Matcher matcher = pattern.matcher(src);
+		
+		switch 
+		case matcher.
+				
+		
+		
+		
+	}
+
+}

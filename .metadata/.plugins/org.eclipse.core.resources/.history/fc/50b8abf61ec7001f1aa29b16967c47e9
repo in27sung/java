@@ -1,0 +1,22 @@
+package regex;
+
+import java.util.regex.Pattern;
+
+public class Ex {
+	
+	public static void main(String[] args) {
+		// ----------------------
+		
+		if(Pattern.matches(nameRegex, name)) {
+			System.out.println("올바른 한글 이름입니다!");
+		} else {
+			System.out.println("올바른 한글 이름이 아닙니다!");
+		}
+		
+		// 2. 전화번호 검증
+		// 2-1) 전화번호 검증에 사용할 정규표현식 작성 
+		String phoneRegex = "^(010|011)[-\\s]?\d{3,4}[-\\s]?\\d{4}$";
+		
+	}
+
+}

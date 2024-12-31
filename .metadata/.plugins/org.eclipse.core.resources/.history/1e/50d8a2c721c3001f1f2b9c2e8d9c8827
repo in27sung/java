@@ -1,0 +1,57 @@
+package io_1;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+public class Ex {
+	
+	public static void main(String[] args) {
+		/*
+		 * 자바 I/O(Input/Output)
+		 * - java.io 패키지에 있는 클래스들의 모음
+		 * - 자바에서 각종 입출력을 담당 
+		 * - Node(노드): 자바에서 입출력을 수행하는 대상 
+		 * 	* 입력 노드: 키보드, 마우스, 파일, 네트워크, 데이터베이스 등
+		 * 	* 출력 노드: 모니터, 스피커, 파일, 네트워크, 데이터베이스 등
+		 * 
+		 * - Stream(스트림): 입력 또는 출력 데이터가 한 방향으로 끊임없이 전송되는 것 
+		 *   * 출발지 노드 -> 도착지 노드 
+		 * - 자바는 다양한 입출력 장치와 무관하고 일관서 있게 프로그램을 구현할 수 있도록
+		 *   일종의 가상 통로인 스트림을 제공 
+		 *   
+		 * [입력 스트림과 출력 스트림]
+		 * 1. 입력 스트림 
+		 * - 자바에서 데이터가 입력될 때 처리하는 스트림 
+		 * - 예를 들어 어떤 동영상을 재생하기 위해 동영상 파일에서 자료를 읽을 때 
+		 * - fileInputStream, FileReader, BufferedInputStream, BufferedReader 등 
+		 * 
+		 * 2. 출력 스트림 
+		 * - 자바에서 데이터가 출력될 때 처리하는 스트림 
+		 * - 예를 들어 편집 화면에서 사용자가 글 
+		 */
+	
+		InputStream is = System.in;
+		try {
+			System.out.println("데이터를 입력하세요:");
+			// System.in 코드에 이해 키보드로부터 데이터 입력이 가능하며 
+			// 입력스트림 객체를 InputStream 타입 변수에 저장(연결)
+			int n = is.read();
+			// -> read() 메서드는 try~catch문을 사용하여 예외처리가 필수
+			// 입력스트림 데이터 중 1Byte 만큼의 데이터를 읽어서 변수에 저장
+			System.out.println("입력 데이터: " + n);
+			System.out.println("입력 데이터를 문자로 변환: " + (char)n);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			if(is != null) {
+				try {
+					is.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+}
