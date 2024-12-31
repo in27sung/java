@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;&apos; to &apos;thread.Ex2.java&apos;&#x0A;- Original project: &apos;JAVA1218&apos;&#x0A;- Destination element: &apos;thread.Ex2.java&apos;&#x0A;- Original element: &apos;thread.YourThread&apos;&#x0A;- Textual move only&#x0A;- Update references to refactored element" description="Move type" destination="/src&lt;thread{Ex2.java" element1="/src&lt;thread{Ex3.java[YourThread" flags="589830" id="org.eclipse.jdt.ui.move" members="1" policy="org.eclipse.jdt.ui.moveMembers" stamp="1734487646517" version="1.0"/>
-</session>

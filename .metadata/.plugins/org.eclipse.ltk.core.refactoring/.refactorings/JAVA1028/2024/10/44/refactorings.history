@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;exception&apos; to &apos;JAVA1029/src&apos;&#x0A;- Original project: &apos;JAVA1028&apos;&#x0A;- Destination element: &apos;JAVA1029/src&apos;&#x0A;- Original element: &apos;JAVA1028/src/exception&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=JAVA1029/src" element1="/src&lt;exception" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1730087781132" version="1.0"/>
-</session>

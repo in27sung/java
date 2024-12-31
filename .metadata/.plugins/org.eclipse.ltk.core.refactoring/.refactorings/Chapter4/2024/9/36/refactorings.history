@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;SwitchCase.java&apos; to &apos;ifexample.SwitchCase.java&apos;&#x0A;- Original project: &apos;Chapter4&apos;&#x0A;- Destination element: &apos;ifexample.SwitchCase.java&apos;&#x0A;- Original element: &apos;ifexample.SwitchCase.java&apos;" description="Copy compilation unit" destination="/src&lt;ifexample{SwitchCase.java" element1="/src&lt;ifexample{SwitchCase.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1725771379953" units="1" version="1.0"/>
-</session>

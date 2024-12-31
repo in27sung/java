@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;static_memebr&apos; to &apos;JAVA1010/src&apos;&#x0A;- Original project: &apos;Text&apos;&#x0A;- Destination element: &apos;JAVA1010/src&apos;&#x0A;- Original element: &apos;Text/src/static_memebr&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=JAVA1010/src" element1="/src&lt;static_memebr" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1729037723214" version="1.0"/>
-</session>

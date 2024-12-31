@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;Ex3.java&apos; to &apos;if_.Ex3.java&apos;&#x0A;- Original project: &apos;JAVA0902&apos;&#x0A;- Destination element: &apos;if_.Ex3.java&apos;&#x0A;- Original element: &apos;if_.Ex3.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=JAVA0905/src&lt;if_{Ex3.java" element1="/src&lt;if_{Ex3.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1725515412546" units="1" version="1.0"/>
-</session>

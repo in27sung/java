@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;FunctionTest.java&apos; to &apos;Chapter5/src/function&apos;&#x0A;- Original project: &apos;Chapter5&apos;&#x0A;- Destination element: &apos;Chapter5/src/function&apos;&#x0A;- Original element: &apos;classpart.FunctionTest.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;function" element1="/src&lt;classpart{FunctionTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1726377431320" units="1" version="1.0"/>
-</session>
