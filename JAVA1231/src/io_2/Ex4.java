@@ -37,7 +37,7 @@ public class Ex4 {
 		Person p = new Person("홍길동", 20, "051010-3123456");
 		Person p2 = new Person("이순신", 44, "801111-1234567");
 		
-		File f = new File("C:/temp/person.txt");
+		File f = new File("/Users/Insung/Documents/temp/person.txt");
 		
 		// Person 객체를 외부 파일로 출력하기 (= 직렬화, Serialization)
 		// => ObjectOutputStream 객체를 생성하여 FileOutputStream 객체 연결

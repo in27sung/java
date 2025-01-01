@@ -44,7 +44,7 @@ public class Ex3 {
 //		DataOutputStream dos = new DataOutputStream(fos);
 		
 		try(DataOutputStream dos = 
-				new DataOutputStream(new FileOutputStream("C:/temp/data5.txt"))) {
+				new DataOutputStream(new FileOutputStream("/Users/Insung/Documents/temp/data5.txt"))) {
 			// DataOutputStream 객체를 통해 출력되는 데이터는
 			// C 드라이브 temp 폴더 내의 data5.txt 파일에 출력됨(기록됨)
 			// => dos.writeXXX() 메서드를 호출하여 기본 데이터 출력
@@ -62,7 +62,7 @@ public class Ex3 {
 		
 		// 파일에 출력된 자바 기본데이터를 읽어와서 화면에 출력하기
 		try(DataInputStream dis = 
-				new DataInputStream(new FileInputStream("C:/temp/data5.txt"))) {
+				new DataInputStream(new FileInputStream("/Users/Insung/Documents/temp/data5.txt"))) {
 			// dis.readXXX() 메서드를 호출하여 데이터 읽어오기(입력)
 			// 읽어들일 데이터는 반드시 출력된 데이터 순으로 읽어야 한다!
 			// => 출력 순서 : int -> double -> String 이므로
