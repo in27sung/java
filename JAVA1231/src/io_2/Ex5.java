@@ -36,7 +36,7 @@ public class Ex5 {
 		// 또는
 //		Scanner sc = new Scanner(System.in);
 		
-		File f = new File("C:/temp/readme.txt");
+		File f = new File("/Users/Insung/Documents/temp/readme.txt");
 //		FileWriter fw = new FileWriter(f);
 //		PrintWriter pw = new PrintWriter(fw);
 		
