@@ -1,26 +1,103 @@
-# Compiled class file
+# ================================
+# Java-related unnecessary files
+# ================================
+
+# 1. Compiled class files
 *.class
 
-# Log file
+# 2. Log files
 *.log
 
-# BlueJ files
+# 3. BlueJ project files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# 4. Mobile Tools for Java (J2ME) temporary files
 .mtj.tmp/
 
-# Package Files #
+# ================================
+# Package files (deployment artifacts)
+# ================================
+
+# 5. Java deployment artifacts (JAR, WAR, EAR, etc.)
 *.jar
 *.war
 *.nar
 *.ear
+
+# 6. Compressed files
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# ================================
+# System-related files
+# ================================
+
+# 7. System files created by macOS
+.DS_Store
+
+# 8. JVM crash log files
 hs_err_pid*
 replay_pid*
+
+# ================================
+# IDE-related files
+# ================================
+
+# 9. Eclipse workspace metadata folder
 .metadata/
-.DS_Store
+
+# 10. Eclipse project settings files
+*.project
+*.classpath
+*.settings/
+
+# 11. IntelliJ IDEA (JetBrains) project files
+.idea/
+*.iml
+*.iws
+
+# 12. NetBeans project files
+/nbproject/
+
+# 13. VS Code project settings
+.vscode/
+
+# ================================
+# Build-related files
+# ================================
+
+# 14. Gradle build directory
+/build/
+.gradle/
+
+# 15. Maven build directory
+/target/
+
+# 16. Temporary files (temp, tmp)
+tmp/
+*.tmp
+
+# 17. Checksum files (Gradle, Maven)
+*.md5
+*.sha1
+*.sha256
+*.sha512
+
+# ================================
+# Environment configuration files
+# ================================
+
+# 18. Environment variable files (local configuration)
+.env
+*.env
+
+# 19. Authentication keys, password files
+*.keystore
+*.pem
+*.crt
+*.key
+*.p12
+
+# 20. CI/CD configuration files (temporary files)
+*.tfstate
